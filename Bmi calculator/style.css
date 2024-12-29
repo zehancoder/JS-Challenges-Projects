@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+#main{
+    width: 430px;
+    background: lightseagreen;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px gray;
+}
+
+#main h1{
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 10px;
+}
+
+form label{
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+form input{
+    display: block;
+    padding: 12px 10px;
+    width: 90%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    background: linear-gradient(rgba(18, 132, 126, 0.627), rgba(255, 255, 255, 0.524));
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(18, 132, 126);
+    color: white;
+    transition: background .3s;
+    margin-bottom: 10px;
+}
+
+form button:hover{
+    background-color: rgb(25, 143, 137);
+}
+
+#result, #info{
+    padding: 20px 15px;
+    background-color: rgb(18, 132, 126);
+    border-radius: 5px;
+}
+
+#result {
+    display: none;
+}
+
+#result p{
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+#result h2{
+    font-size: 40px;
+    margin-top: 10px;
+    background-color: lightseagreen;
+    display: inline-block;
+    padding: 8px 12px;
+    font-weight: 500;
+}
+
+#info{
+    margin-top: 10px;
+}
+
+#info h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#info p{
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
