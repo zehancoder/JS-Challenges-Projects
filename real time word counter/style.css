@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.parent{
+    height: 400px;
+    max-width: 500px;
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 20px 5px gray;
+    margin: 30px auto;
+}
+h1{
+    font-size: 26px;
+    text-align: center;
+    color:rgb(1, 1, 83);
+    font-weight: 900;
+}
+.inputEle{
+    margin-top: 50px;
+    padding: 8px 5px;
+    width: 90%;
+    height: 50%;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid darkblue;
+    outline: none;
+    color: black;
+    font-size: 17px;
+    resize:none;
+    margin-left: 20px;
+}
+
+.wordDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.total, .remain{
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 70px;
+}
