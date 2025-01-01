@@ -4,7 +4,7 @@ let minuteEle = document.querySelector(".Minute");
 let secondEle = document.querySelector(".second");
 let parentContainer = document.querySelector(".parentContainer");
 
-let myDate = new Date("jan 1, 2025 00:00:00").getTime();
+let myDate = new Date("jan 1, 2026 00:00:00").getTime();
 
 
 setInterval(() => {
