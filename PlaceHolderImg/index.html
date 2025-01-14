@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Placeholder Image</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Placeholder Image Path</h1>
+
+      <p>Image Size</p>
+      <select id="mainOpitionContainer">
+        <option value="Small (100x50)" id="small" selected class="options" >Small (100x50)</option>
+        <option value="Medium Square (200x200)" id="mediumSqr" class="options" >Medium Square (200x200)</option>
+        <option value="Medium (350x150)" id="medium" class="options">Medium (350x150)</option>
+        <option value="Large Square (400x400)" id="largeSqr" class="options">Large Square (400x400)</option>
+        <option value="Large (650x350)" id="large" class="options">Large (650x350)</option>
+        <option value="X-large (800x600)" id="xLarge" class="options">X-large (800x600)</option>
+        <option value="Full HD (1920x1080)" id="HD" class="options">Full HD (1920x1080)</option>
+      </select>
+
+      <p>Text On Image</p>
+      <input type="text" id="TextImg">
+      <div class="colorDiv">
+        <p>Color Of Image</p>
+        <div id="BackgroundColor">
+          <input type="color" class="colorSelect" id="imgColorInput">
+        </div>
+      </div>
+      <div class="colorDiv">
+        <p>Color Of Text</p>
+        <div id="TextColor">
+          <input type="color" class="colorSelect"  id="TextColorInput" >
+        </div>
+      </div>
+
+      <div class="textOperation">
+        <p>Set Font Size:</p>
+        <div class="arrows">
+          <i class="fa-solid fa-arrow-up" id="up"></i><p id="fontSize"></p><i class="fa-solid fa-arrow-down" id="down"></i>
+        </div>
+      </div>
+
+    </div>
+    <p class="imgShow">This is image:</p>
+    <div id="mainImg">
+      <p class="innerText"></p>
+    </div>
+
+    <div class="urlDiv">
+      <img src="" id="img" alt="">
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
