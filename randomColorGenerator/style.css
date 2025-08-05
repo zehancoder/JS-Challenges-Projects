@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -24,4 +25,32 @@
     font-family:'Courier New', Courier, monospace;
     font-weight: 600;
     letter-spacing: 1px;
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.child{
+    height: 150px;
+    width: 250px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    letter-spacing: 1px;
+>>>>>>> 805f7f21d4f3d96671f18ff330e831b589e2542c
 }
